@@ -1,0 +1,15 @@
+Name : Sunish Sohil Sheth
+Net Id. : sss140830
+
+Compile:
+javac DecisionTree.java
+
+Run:
+java DecisionTree <L> <K> <training-set> <validation-set> <test-set> <to-print>
+L: integer (used in the post-pruning algorithm)
+K: integer (used in the post-pruning algorithm)
+to-print:{yes,no} 
+
+java DecisionTree 1000 30 training_set.csv validation_set.csv test_set.csv yes
+java DecisionTree 10 10 training_set.csv validation_set.csv test_set.csv no
+java DecisionTree 1000 10 training_set.csv validation_set.csv test_set.csv no
